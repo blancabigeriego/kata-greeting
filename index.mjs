@@ -1,5 +1,5 @@
 export class Greeter {
-    greet() {
-        return "Hola Blanca";
+    greet(name) {
+        return `Hola ${name}`;
     }
 }
